@@ -2,8 +2,51 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 html {
     font-size: 62.5%;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.6rem;
+    background-color: #eee;
+}
+
+.container {
+    display: flex;
+}
+
+.image-section {
+    background-image:  linear-gradient(to bottom, rgba(116, 216, 255, 0.42), rgba(39, 77, 119, 0.63)), url(images/Xenoblade_Chronicles-qge.jpg);
+    flex-basis: 40%;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.image-section p {
+    font-size: 13rem;
+    font-family: 'Rubik 80s Fade', cursive;
+    text-align: center;
+    margin-top: 35vh;
+    color: #fff;
+}
+
+.sign-up-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    flex-basis: 60%;
+}
+
+h2 {
+    color: #000;
+    font-size: 4.8rem;
+    font-weight: 900;
 }
