@@ -9,9 +9,8 @@
     <title>Sign Up Form</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&family=Source+Sans+Pro:wght@300;400&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Rubik+80s+Fade&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -21,21 +20,46 @@
         </div>
         <div class="sign-up-section">
             <h2>Sign Up</h2>
-            <form action="" method="post">
+            <form action="#" method="get">
                 <div class="row--1">
                     <ul>
                         <li>
-                            <label for=""></label>
-                            <input type="text">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name">
                         </li>
                         <li>
-                            <label for=""></label>
-                            <input type="text">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name">
                         </li>
                     </ul>
                 </div>
-                <div class="row--2"></div>
-                <div class="row--3"></div>
+                <div class="row--2">
+                    <ul>
+                        <li>
+                            <label for="email">Email</label>
+                            <input type="email" id="email">
+                        </li>
+                        <li>
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone">
+                        </li>
+                    </ul>
+                </div>
+                <div class="row--3">
+                    <ul>
+                        <li>
+                            <label for="password">Password</label>
+                            <input type="password"  id="password">
+                        </li>
+                        <li>
+                            <label for="password-confirm">Confirm Password</label>
+                            <input type="password" id="password-confirm">
+                        </li>
+                    </ul>
+                </div>
+                <div class="buttons">
+                    <button type="submit">Create Account</button>
+                </div>
             </form>
         </div>
     </section>
