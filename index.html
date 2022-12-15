@@ -20,7 +20,7 @@
         </div>
         <div class="sign-up-section">
             <h2>Sign Up</h2>
-            <form action="#" method="get">
+            <form action="#" method="post">
                 <div class="row--1">
                     <ul>
                         <li>
@@ -48,8 +48,8 @@
                 <div class="row--3">
                     <ul>
                         <li>
-                            <label for="password">Password</label>
-                            <input required type="password"  id="password" class="error">
+                            <label for="password">Password (5 to 10 characters)</label>
+                            <input required type="password" pattern="^.{5,10}" id="password" class="error">
                         </li>
                         <li>
                             <label for="password-confirm">Confirm Password</label>
