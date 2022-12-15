@@ -99,12 +99,19 @@ input {
     padding: 0.4rem;
 }
 
+input:focus {
+    border: 2px solid #567;
+    
+}
+
 input, label {
     display: flex;
 }
 
 label { 
     color: #444;
+    margin-bottom: 2px;
+    margin-left: 1px;
 }
 
 input:-webkit-autofill,
@@ -115,5 +122,5 @@ input:-webkit-autofill:active{
 }
 
 input:-webkit-autofill{
-    -webkit-text-fill-color: #333; !important;
+    -webkit-text-fill-color: #445;
 }
